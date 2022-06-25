@@ -48,4 +48,11 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Models\" />
+	  <Folder Include="Repository\" />
+	  <Folder Include="Presenter\" />
+	  <Folder Include="Presentation\" />
+	</ItemGroup>
+
 </Project>
